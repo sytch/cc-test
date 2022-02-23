@@ -70,11 +70,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'app.wsgi.application'
 
-
-{%- if cookiecutter.db == "mysql" -%}
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+{% if cookiecutter.db == "mysql" %}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -86,11 +85,7 @@ DATABASES = {
         'PORT': os.getenv('DJANGO_DB_PORT', ''),
     }
 }
-{%- elif cookiecutter.db == "sqlite" -%}
-# Database
-# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
-
+{% elif cookiecutter.db == "sqlite" %}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
