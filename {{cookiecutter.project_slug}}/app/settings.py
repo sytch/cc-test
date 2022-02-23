@@ -129,6 +129,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-SOME NEW_SETTING = 'test update'
-ANOTHER NEW_SETTING = 'test update'
-AND_ANOTHER NEW_SETTING = 'test update'
+SOME_NEW_SETTING = 'test update'
+ANOTHER_NEW_SETTING = 'test update'
+AND_ANOTHER_NEW_SETTING = 'test update'
