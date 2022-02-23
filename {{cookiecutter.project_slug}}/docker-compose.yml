@@ -44,6 +44,7 @@ services:
       DJANGO_DB_PW: '${MYSQL_PASSWORD}'
       DJANGO_DB_HOST: '{{cookiecutter.db_service_name}}'
       DJANGO_DB_PORT: '3306'
+      SOME_ENV_VAR: 'some var'
     volumes:
       - ./:/opt/app-root/src
     networks:
