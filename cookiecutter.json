@@ -1,4 +1,5 @@
 {
   "directory_name": "Hello",
-  "some_file": "test"
+  "file_name": "test",
+  "greeting_recipient": "Dexter Morgan"
 }
