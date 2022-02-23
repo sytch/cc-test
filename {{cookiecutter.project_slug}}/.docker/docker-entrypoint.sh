@@ -10,7 +10,7 @@ if [ "$2" = 'runserver' ]; then
     python ./manage.py migrate
 
     echo "Load fixtures"
-    python ./manage.py loaddata {{cookiecutter.project_slug}}/fixtures/users.json
+    python ./manage.py loaddata app/fixtures/users.json
 
     echo "Collect static files"
     python ./manage.py collectstatic --noinput
