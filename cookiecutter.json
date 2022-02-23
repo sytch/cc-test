@@ -1,5 +1,5 @@
 {
-  "project_slug": "project_slug",
+  "project_slug": "MyApp",
   "database_name": "django",
   "database_user": "django",
   "database_password": "django",
