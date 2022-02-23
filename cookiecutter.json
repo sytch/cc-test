@@ -1,11 +1,12 @@
 {
   "project_slug": "MyApp",
   "django_service_name": "django",
-  "db_service_name": "db",
+  "db": ["sqlite", "mysql"],
   "database_name": "django",
   "database_user": "django",
   "database_password": "django",
   "database_root_password": "django",
+  "db_service_name": "db",
   "local_url": "api.myapp.lo",
   "blog_app_name": "blog"
 }
