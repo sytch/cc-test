@@ -5,6 +5,7 @@ This pre_gen is to avoid to input tests variables if you don't want to create it
 '''
 
 if "{{ cookiecutter.db }}" == "mysql":
+    print('*' * 100)
     cookiecutter.prompt.read_user_variable("database_name", "django")
     cookiecutter.prompt.read_user_variable("database_user", "django")
     cookiecutter.prompt.read_user_variable("database_password", "django")
