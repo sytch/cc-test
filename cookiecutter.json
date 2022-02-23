@@ -7,5 +7,5 @@
   "database_password": "django",
   "database_root_password": "django",
   "local_url": "api.myapp.lo",
-  "blog_app_name": "blog",
+  "blog_app_name": "blog"
 }
