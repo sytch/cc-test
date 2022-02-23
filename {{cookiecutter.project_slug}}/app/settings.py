@@ -131,3 +131,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SOME NEW_SETTING = 'test update'
 ANOTHER NEW_SETTING = 'test update'
+AND_ANOTHER NEW_SETTING = 'test update'
