@@ -1,5 +1,6 @@
 {
-  "directory_name": "Hello",
-  "file_name": "test",
-  "greeting_recipient": "Dexter Morgan"
+  "database_name": "django",
+  "database_user": "django",
+  "database_password": "django",
+  "database_root_password": "django"
 }
